@@ -1,6 +1,8 @@
-# Gabriel está acompanhando o desempenho de dois cursos online que lançou: Python Básico e JavaScript Essencial.
-# Ele quer saber qual curso teve mais avaliações no último mês.
+curso_01 = int(input("Digite o número de avaliações do curso01"))
+curso_02 = int(input("Digite o número de avaliações do curso02"))
 
-# Crie um programa que receba o número de avaliações de cada curso e exiba qual teve mais.
-# Caso as quantidades sejam iguais, exiba uma mensagem dizendo que houve empate.
+if curso_01 > curso_02:
+    print("Curso_01 teve mais avaliações")
+else:
+    print("Curso_02 teve mais.")
 

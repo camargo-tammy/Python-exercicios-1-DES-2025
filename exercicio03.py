@@ -4,6 +4,6 @@
 umidade_local = int(input("Digite o valor da umidade"))
 
 if umidade_local < 70:
-    print("a temperatura está boa")
+    print("A temperatura está boa")
 else:
-    print("alerta, a temperatura ultrapassou o limite")
+    print("Alerta, a temperatura ultrapassou o limite")

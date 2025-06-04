@@ -5,11 +5,11 @@ distancia = float(input("Digite a distância percorrida"))
 tempo = float(input("Digite o tempo gasto "))
 v_media = distancia / tempo
 if v_media < 5 :
-    print("a velocidade foi lenta")
+    print("A velocidade foi lenta")
 elif v_media >=5 <= 10 :
-    print("velocidade foi moderada")
+    print("A velocidade foi moderada")
 else:
-    print("a velocidade foi rápida")
+    print("A velocidade foi rápida")
 
 
 
